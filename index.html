@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Ecoleaf</title>
+        <script>
+            document.addEventListener('DOMContentLoaded', (event) => {
+                const btn = document.getElementById('signup-btn');
+                btn.addEventListener('click', () => {
+                window.open('login.html', '_blank');
+            })
+            });
+
+        </script>
+</head>
+<body>
+    <header class="nav-bar">   
+            <div class="header-topic">
+            <img  src="leaf.png">
+            <p class="ecoleaf"> Eco<span class="leaf">Leaf</span></p>
+            </div>
+        
+            <ul class="nav-part">
+                <li><a href="#intro">Home</a></li> 
+                <li><a href="#abt-us-topic">About</a></li>
+                <li><a href="#services-section">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><button class="signup-btn" id="signup-btn">Log in/Sign up</button></li>
+            </ul>
+    </header>
+
+    <div class="intro" id="intro">
+        <div class="into-content">
+        <h2 class="topic">The Laundry of your choice!</h2>
+        <p>Enjoy the Luxury of Fresh, Clean Clothes Delivered Right to Your Doorstep, Without the Hassle!
+        <h3 class="click">Click the button to get started!</h3>
+    </div>
+    <button class="btn" >Get Started</button>
+
+    </div>
+
+
+    <div id="services-section">
+    <h2 id="services-topic">Our Services</h2>
+    <div class="services">
+        <div>
+            <img src="clothes.png">
+            <h2>We Collect Your Clothes.</h2>
+            <p>The automated process starts
+                as soon as your clothes go into
+                the machine. The outcome is gleaming
+                clothes!</p>
+        </div>
+        <div>
+            <img src="dry-cleaning.png">
+            <h2>We Wash Your Clothes.</h2>
+            <p>The automated process starts
+                as soon as your clothes go into
+                the machine. The outcome is gleaming
+                clothes!</p>
+        </div>
+        <div>
+            <img src="fast-delivery.png">
+            <h2>Get Delivery.</h2>
+            <p>The automated process starts
+                as soon as your clothes go into
+                the machine. The outcome is gleaming
+                clothes!</p>
+        </div>
+    </div>
+    </div>
+    <h2 id="abt-us-topic">About Us</h2>
+    <div class="about-us">
+        
+        <div class="about-img">
+            <img src="laundry.jpg">
+        </div>
+        <div class="abt-text">
+            
+            <p>Our laundry cleaning service gives you time back for the things you enjoy.<br> Fill your Wash and Fold Laundry bag with pants, shorts, shirts, undergarments, socks, and more.<br> We will clean your clothes and return your folded laundry ready to be placed in the drawer!</p>
+        </div>
+    </div>
+    <h2 id="testify">Testimonials</h2>
+    <div class="testimonials">
+        <div>
+            <img src="person.png">
+            <p>"Amazing service! My clothes have never been so clean and fresh.<br> Highly recommend!"<br> - Sarah M</p>
+        </div>
+        <div>
+            <img src="person.png">
+            <p>"Fast, reliable, and top-quality laundry care.<br> Couldn't ask for more!" <br>- John D</p>
+        </div>
+        <div>
+            <img src="person.png">
+            <p>"Saved me so much time! <br>The pick-up and delivery are super convenient."<br> - Emily R</p>
+        </div>
+    </div>
+    <div id="contact">
+    <div class="contact-form"> 
+        <h2>Contact Us</h2> 
+        <form  action="" method="post"> 
+            <label for="name">Name</label> 
+            <input type="text" id="name" name="name" required> 
+            <label for="email">Email</label> 
+            <input type="email" id="email" name="email" required> 
+            <label for="message">Message</label> 
+            <textarea id="message" name="message" rows="5" required></textarea> 
+            <button type="submit">Send Message</button> 
+        </form> 
+    </div>
+    <div class="contact-img">
+        <img src="Contact-us.png">
+    </div>
+    </div>
+    
+    <footer class="footer">
+     <div class="footer-content">
+     <div class="footer-section about">
+     <h3>About Us</h3>
+     <p>We provide exceptional laundry services with convenience and care. Our commitment to quality ensures your garments receive the best treatment possible.</p> 
+    </div> 
+    <div class="footer-section links">
+         <h3>Quick Links</h3>
+          <ul> 
+                <li><a href="">Home</a></li> 
+                <li><a href="#abt-us-topic">About</a></li>
+                <li><a href="#services-section">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li> 
+            </ul> 
+        </div> 
+        <div class="footer-section contact"> 
+            <h3>Contact Us</h3> 
+            <p>Email: info@ecoleaf.com</p> 
+            <p>Phone: +(251) 000-0000</p> <p>Address: Piassa, Addis Ababa, Ethiopia<p> 
+        </div> 
+    </div> 
+    <div class="footer-bottom"> &copy; 2024 EcoLeaf</div> </footer>
+    
+</body>
+</html>

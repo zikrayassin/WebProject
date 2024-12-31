@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Rowdies:wght@300;400;700&family=Sacramento&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+body{
+    color: #ffff;
+    text-align: center;
+    background-color: #193035;
+    font-family: serif;
+}
+.nav-bar{
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    height: 70px;
+    background-color: #f6f6f6;
+    color: #000;
+    z-index: 1000;
+}
+
+.header-topic{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    position: absolute;
+    top:25px;
+   
+}
+header img{
+    width:35px;
+    padding-right: 2px;
+    padding-left: 10px;
+}
+.ecoleaf{
+   margin:0;
+   font-size: 25px;
+   font-family: 'Merriweather', serif;
+   font-weight: 300;
+}
+.leaf{
+    Color:#378311;
+    font-weight: bold;
+}
+
+.nav-part{
+    display: flex;
+    flex-direction: row;
+    justify-content:right;
+    align-items: end;
+    position: absolute;
+    top:25px;
+    right:10px;
+
+}
+.nav-part a{
+    text-decoration: none;
+    color:#000;
+    font-size: 15px;
+    font-family: 'Merriweather', serif;
+    margin-right: 40px;
+}
+.nav-part li{
+    list-style: none;
+}
+a:hover{
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+   
+}
+
+.intro{
+    position: relative;
+    top:70px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.889), rgba(0, 0, 0,0.889)), url('machine_bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+    text-align: left;
+    padding-top: 150px;
+    padding-bottom: 200px;
+    margin-bottom: 180px;
+   
+}
+.into-content{
+    z-index: 1; 
+    color: white;
+}
+.into-content p{
+    font-size: 20px;
+    font-family: serif;
+    padding-left: 80px;
+    padding-bottom: 50px;
+}
+
+.topic{
+   font-size: 50px;
+   font-family: 'Rowdies', serif;
+   font-weight: 1000;
+   padding-left: 80px;
+   padding-bottom: 30px;
+}
+.click{
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+    
+}
+.btn {
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    margin-left: 80px;
+  }
+
+.btn:hover {
+    background-color: #378311;
+    text-decoration: none;
+    
+  }
+.signup-btn{
+    cursor: pointer;
+    background-color: #193035;
+    border: 1px solid #ffffff;
+    border-radius: 20px;
+    font-family: 'Merriweather', serif;
+    color: #ffffff;
+    font-size: 15px;
+    padding: 5px 10px 5px 10px;
+   
+}
+.signup-btn:hover{
+    background-color: #576c71;
+}
+#services-section{
+    text-align: center;
+    padding-top: 120px;
+    font-size: 36px;
+    font-family: 'Merriweather', serif;
+    margin-bottom: 200px;
+    
+}
+.services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#services-topic{
+    padding-bottom: 50px;
+}
+.services div{
+    border: 2px solid #fff;
+    color:#fff;
+    text-align: center;
+    width: 25%;
+    font-size: 20px;
+    box-shadow: 0 4px 8px rgba(255, 254, 254, 0.936);
+}
+
+.services div h2{
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+.services div img{
+    width:50px;
+  
+}
+.about-us{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 36px;
+    font-family: 'Merriweather', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.about-img img{
+    border: 2px solid #fff; 
+    box-shadow: 0 4px 8px rgba(255, 254, 254, 0.936);
+}
+.abt-text{
+    font-size: 20px;
+    font-family: serif;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 150px;
+}
+#abt-us-topic{
+    font-size: 36px;
+    font-family: 'Merriweather', serif;
+    padding-top: 80px;
+}
+
+#testify{
+    font-size: 36px;
+    font-family: 'Merriweather', serif;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+.testimonials{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 300px;
+}
+.testimonials div h2{
+    font-size: 22px;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+#contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 200px;
+}
+.contact-img img{
+    width: 50%;
+}
+.contact-form { 
+    background-color: #fff;
+    padding: 50px; 
+    margin-left: 200px;
+    border-radius: 8px; 
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    color:black;
+    text-align: left;
+    } 
+.contact-form h2 {
+     margin-top: 0; 
+     margin-bottom: 20px;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Merriweather', serif;
+    } 
+.contact-form label {
+     display: block;
+      margin-bottom: 5px;
+     } 
+.contact-form input, .contact-form textarea {
+     width: 100%;
+     padding: 10px;
+     margin-bottom: 10px; 
+     border: 1px solid #ccc; 
+     border-radius: 4px; 
+    } 
+.contact-form button { 
+    background-color: #4CAF50;
+    color: white; 
+    border: none; 
+    padding: 10px 20px;
+     border-radius: 4px; 
+     cursor: pointer;
+     } 
+.contact-form button:hover { 
+    background-color: #45a049; 
+}
+
+.footer {
+    color: #fff;
+    padding: 20px 0; 
+    text-align: center; 
+    border-top: 1px solid #444;
+    } 
+.footer-content { 
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap; 
+} 
+.footer-section { 
+    flex: 1;
+    margin: 20px; 
+    min-width: 200px; 
+}
+ .footer-section h3 {
+     margin-bottom: 15px;
+     }
+.footer-section p, .footer-section ul, .footer-section li { 
+     margin: 10px;
+     padding: 0; 
+     list-style: none; 
+    } 
+.footer-section a { 
+     color: #fff;
+     text-decoration: none;
+     } 
+.footer-section a:hover { 
+    color: #4CAF50;
+    border-bottom: 2px solid #4CAF50;
+ } 
+.footer-bottom {
+     margin-top: 20px;
+     padding-top: 10px; 
+    }
+
+
